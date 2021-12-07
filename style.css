@@ -68,7 +68,7 @@ nav {
 }
 
 .topnav .icon {
-display: none;
+    display: none;
 }
 
 .background {
@@ -644,18 +644,6 @@ to { opacity: 1 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
     padding-top: 28px;
     padding-bottom: 28px;
@@ -819,7 +807,7 @@ to { opacity: 1 }
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     .contact_form {
         width: 100%;
@@ -873,7 +861,7 @@ to { opacity: 1 }
 }
 
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 375px) {
     .form_input1 input {
         width: 92%;
         margin: 0 auto;
