@@ -614,10 +614,8 @@ to { opacity: 1 }
 to { opacity: 1 }   
 }
 .hide + label:before {
-
     color: #191C1F;
     content: url(img/plus.png);
-
     display: block;
     float: right;
     font-size: 24px; 
@@ -640,10 +638,6 @@ to { opacity: 1 }
  
 }
 
-
-
-
-
 .footer {
     padding-top: 28px;
     padding-bottom: 28px;
@@ -663,56 +657,51 @@ to { opacity: 1 }
 
 
 
-
-
-
-
 @media screen and (max-width: 1260px) {
-    .topnav a {
+
+.topnav a {
     display: none;
-    }
+}
     
-    .topnav a.icon {
-        float: right;
+.topnav a.icon {
+    float: right;
     color: #fff;
     display: block;
     font-size: 24px;
+    border: 0;
+}
+
+nav {
+    width: 100%;
+    margin-right: 0;
+}
+
+.header_logo {
+    margin-left: 46px;
+}
+
+.topnav.responsive {
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+
+.topnav.responsive {
+    height: 375px;
+    background: #fff;
+    padding: 0 16px;
     }
 
-    nav {
-        width: 100%;
-        margin-right: 0;
-    }
+.topnav.responsive a.icon {
+    position: absolute;
+    color: #fff;
+    top: -67px;
+    right: 0px;
+    font-size: 24px;
+    border: 0;
+}
 
-    .header_logo {
-        margin-left: 46px;
-    }
-
-    .topnav.responsive {
-        position: relative;
-        top: 50px;
-        left: 0px;
-    }
-
- 
-
-
-    .topnav.responsive {
-        height: 375px;
-        background: #fff;
-        padding: 0 16px;
-    }
-
-    .topnav.responsive a.icon {
-        position: absolute;
-        color: #fff;
-        top: -67px;
-        right: 0px;
-        font-size: 24px;
-        content: "\2573";
-    }
-
-    .topnav.responsive a {
+.topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
@@ -724,23 +713,22 @@ to { opacity: 1 }
     color: #83898F;
     padding: 16px 0;
     border-bottom: 1px solid #ECEFF2;;
-    }
+}
 
 .wrapper_info {
     width: 100%;
 }
 
-
 .info_text {
-        width: 100%;
-    }
+    width: 100%;
+}
 
 .wrapper_questions {
-        width: 100%;
-    }
+    width: 100%;
+}
 .question_form label{
-        width: 100%;
-    }
+    width: 100%;
+}
 
 .question {
     padding: 20px;
@@ -753,7 +741,6 @@ to { opacity: 1 }
 .contact_form {
     width: 100%;
 }
-
 
 
 
@@ -936,7 +923,6 @@ main .main_welcome {
     font-size: 20px;
     line-height: 24px;
 }
-
 
 }
 
